@@ -26,11 +26,13 @@ include('../database/db_connection.php')
       <a href="../Dropdown/main.php">Main</a>
       <a href="../Dropdown/dessert.php">Dessert</a>
       <a href="../Dropdown/drink.php">Drink</a>
-
+    </div>
+    <div>
+      <a class="dropbtn navigation" href="../Dropdown/form.php">New</a>
+      <a class="dropbtn" href="../Main/api_request.php" style="color: white;">Search for more recipes 🔎</a>
     </div>
   </div>
-  <a class="dropbtn navigation" href="../Dropdown/form.php">New</a>
-  <a class="dropbtn" href="../Main/api_request.php" style="color: white;">Search for more recipes 🔎</a>
+
   <hr>
   <header>
     <div class="header">
@@ -44,14 +46,14 @@ include('../database/db_connection.php')
       <img src="../assets/burger.png" alt="">
     </div>
     <div class="two">
-      <p>Salad contains various types of Vitamins, calcium, folic acids, <br> fiber and phytonutrients that helps to prevent chronic diseases <br> such as cancer and heart diseases. <br> It works great for the persons with diabetes and <br> Vegetable salads keep weight down.</p>
+      <p>Salad contains various types of Vitamins, calcium, folic acids, fiber and phytonutrients that helps to prevent chronic diseases such as cancer and heart diseases. It works great for the persons with diabetes and Vegetable salads keep weight down.</p>
     </div>
   </div>
   <div class="content">
     <div class="two">
-      <p>Eating vegetables provides health benefits <br> – people who eat more vegetables <br>
-        and fruits as part of an overall healthy diet <br> are likely to have a reduced risk of <br>
-        some chronic diseases. <br> Vegetables provide nutrients vital for health and <br>
+      <p>Eating vegetables provides health benefits – people who eat more vegetables
+        and fruits as part of an overall healthy diet are likely to have a reduced risk of
+        some chronic diseases. Vegetables provide nutrients vital for health and
         maintenance of your body.
       </p>
     </div>
@@ -65,7 +67,7 @@ include('../database/db_connection.php')
       <img class="B" src="../assets/three.png" alt="">
     </div>
     <div class="two">
-      <p>A healthy diet is essential for good health and nutrition. <br> It protects you against many chronic noncommunicable diseases, <br> such as heart disease, diabetes and cancer. <br> Eating a variety of foods and consuming less salt, <br> sugars and saturated and industrially-produced trans-fats, <br> are essential for healthy diet.</p>
+      <p>A healthy diet is essential for good health and nutrition. It protects you against many chronic noncommunicable diseases, such as heart disease, diabetes and cancer. Eating a variety of foods and consuming less salt, sugars and saturated and industrially-produced trans-fats, are essential for healthy diet.</p>
     </div>
   </div>
   <hr>

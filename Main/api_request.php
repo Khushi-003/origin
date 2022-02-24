@@ -32,9 +32,7 @@ function hitRecipieAPI($recipieName)
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <style>
         body {
-            background-image: url(https://wallpaperaccess.com/full/187161.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
+            background-color: #1abc9c;
         }
 
         .button {
@@ -58,16 +56,25 @@ function hitRecipieAPI($recipieName)
         button {
             font-size: 2rem;
             border-radius: 5px;
-            border: 3px solid green;
+            border: 3px solid black;
         }
 
-        button:hover {
-            background-color: greenyellow;
+        button:hover,
+        button:focus {
+            background-color: #C4C4C4;
+        }
+
+        button:focus {
+            box-shadow: 3px 3px 5px black;
         }
 
         #dish {
             font-size: 3rem;
             font-weight: bold;
+        }
+
+        .form-control {
+            border: 3px solid black;
         }
     </style>
 </head>

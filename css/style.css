@@ -22,6 +22,7 @@ body {
   background-color: #1abc9c;
   height: 25rem;
   width: 50%;
+  overflow: hidden;
 }
 .two {
   background-color: antiquewhite;
@@ -116,17 +117,17 @@ body {
 .dropbtn {
   background-color: #04aa6d;
   color: white;
-  padding: 10px;
+  padding: 10px 15px;
   font-size: 16px;
   font-weight: bold;
   border: none;
 }
-.btn1 {
-  margin-left: 10%;
-}
 .dropdown {
-  position: relative;
-  display: inline-block;
+  /* position: relative; */
+  padding: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .dropdown-content {
@@ -159,19 +160,16 @@ body {
 .dropdown button {
   display: flexbox;
 }
-.navigation {
-  margin-top: 1%;
-  margin-left: 80%;
-}
+
 .one img {
-  width: 80%;
+  width: 100%;
+  display: block;
 }
 .two {
-  padding-top: 20px;
-  font-size: large;
+  padding: 25px 15px;
+  font-size: 1.5rem;
   text-align: center;
   font-weight: bolder;
-  line-height: 1.5rem;
 }
 .logo {
   width: 100%;
